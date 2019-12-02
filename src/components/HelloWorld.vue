@@ -105,6 +105,11 @@
 <script>
 export default {
   name: "HelloWorld",
+  data() {
+    return {
+      test: "123456"
+    };
+  },
   props: {
     msg: String
   }
